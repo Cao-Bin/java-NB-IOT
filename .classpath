@@ -2,16 +2,16 @@
 <classpath>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8"/>
 	<classpathentry kind="src" path="src"/>
-	<classpathentry kind="lib" path="C:/Users/Administrator/Desktop/NB-IoT/中国电信物联网开放平台Demo_North_Lite（API调试工具）/LiteNAdemo_https/Open source components/commons-codec-1.9.jar"/>
-	<classpathentry kind="lib" path="C:/Users/Administrator/Desktop/NB-IoT/中国电信物联网开放平台Demo_North_Lite（API调试工具）/LiteNAdemo_https/Open source components/commons-logging-1.2.jar"/>
-	<classpathentry kind="lib" path="C:/Users/Administrator/Desktop/NB-IoT/中国电信物联网开放平台Demo_North_Lite（API调试工具）/LiteNAdemo_https/Open source components/httpclient-4.5.2.jar"/>
-	<classpathentry kind="lib" path="C:/Users/Administrator/Desktop/NB-IoT/中国电信物联网开放平台Demo_North_Lite（API调试工具）/LiteNAdemo_https/Open source components/httpcore-4.4.4.jar"/>
-	<classpathentry kind="lib" path="C:/Users/Administrator/Desktop/NB-IoT/中国电信物联网开放平台Demo_North_Lite（API调试工具）/LiteNAdemo_https/Open source components/httpmime-4.5.2.jar"/>
-	<classpathentry kind="lib" path="C:/Users/Administrator/Desktop/NB-IoT/中国电信物联网开放平台Demo_North_Lite（API调试工具）/LiteNAdemo_https/Open source components/jackson-annotations-2.5.4.jar"/>
-	<classpathentry kind="lib" path="C:/Users/Administrator/Desktop/NB-IoT/中国电信物联网开放平台Demo_North_Lite（API调试工具）/LiteNAdemo_https/Open source components/jackson-core-2.5.4.jar"/>
-	<classpathentry kind="lib" path="C:/Users/Administrator/Desktop/NB-IoT/中国电信物联网开放平台Demo_North_Lite（API调试工具）/LiteNAdemo_https/Open source components/jackson-databind-2.5.4.jar"/>
-	<classpathentry kind="lib" path="C:/Users/Administrator/Desktop/NB-IoT/中国电信物联网开放平台Demo_North_Lite（API调试工具）/LiteNAdemo_https/Open source components/json-lib-2.4-jdk15.jar"/>
-	<classpathentry kind="lib" path="C:/Users/Administrator/Desktop/NB-IoT/中国电信物联网开放平台Demo_North_Lite（API调试工具）/LiteNAdemo_https/Open source components/spring-core-4.1.6.RELEASE.jar"/>
-	<classpathentry kind="lib" path="C:/Users/Administrator/Desktop/NB-IoT/中国电信物联网开放平台Demo_North_Lite（API调试工具）/LiteNAdemo_https/Open source components/spring-web-4.1.6.RELEASE.jar"/>
+	<classpathentry kind="lib" path="G:/workspace/webProject/java-NB-IOT/src/commons-codec-1.9.jar"/>
+	<classpathentry kind="lib" path="G:/workspace/webProject/java-NB-IOT/src/commons-logging-1.2.jar"/>
+	<classpathentry kind="lib" path="G:/workspace/webProject/java-NB-IOT/src/httpclient-4.5.2.jar"/>
+	<classpathentry kind="lib" path="G:/workspace/webProject/java-NB-IOT/src/httpcore-4.4.4.jar"/>
+	<classpathentry kind="lib" path="G:/workspace/webProject/java-NB-IOT/src/httpmime-4.5.2.jar"/>
+	<classpathentry kind="lib" path="G:/workspace/webProject/java-NB-IOT/src/jackson-annotations-2.5.4.jar"/>
+	<classpathentry kind="lib" path="G:/workspace/webProject/java-NB-IOT/src/jackson-core-2.5.4.jar"/>
+	<classpathentry kind="lib" path="G:/workspace/webProject/java-NB-IOT/src/jackson-databind-2.5.4.jar"/>
+	<classpathentry kind="lib" path="G:/workspace/webProject/java-NB-IOT/src/json-lib-2.4-jdk15.jar"/>
+	<classpathentry kind="lib" path="G:/workspace/webProject/java-NB-IOT/src/spring-core-4.1.6.RELEASE.jar"/>
+	<classpathentry kind="lib" path="G:/workspace/webProject/java-NB-IOT/src/spring-web-4.1.6.RELEASE.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
