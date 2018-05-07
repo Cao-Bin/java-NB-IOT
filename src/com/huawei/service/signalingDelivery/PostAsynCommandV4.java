@@ -58,25 +58,25 @@ public class PostAsynCommandV4 {
         String appId = Constant.APPID;
 
         //please replace the deviceId, when you use the demo.
-        String deviceId = "16fca9af-737b-4553-b3d4-8b95a4edb1e2";
+        String deviceId = "733ad561-b54e-4fa5-81d1-05aa39272f9c";
         String callbackUrl = Constant.REPORT_CMD_EXEC_RESULT_CALLBACK_URL;
 
         //please replace the following parameter values, when you use the demo.
         //And those parameter values must be consistent with the content of profile that have been preset to IoT platform.
         //The following parameter values of this demo are use the watermeter profile that already initialized to IoT platform.
         String serviceId = "Lock";
-        String method = "LOCK_CLOSE";
+        String method = "CLOSE_LOCK";
         ObjectNode paras = JsonUtil.convertObject2ObjectNode("{\"value\":0}");
       
         Map<String, Object> paramCommand = new HashMap<>();
         paramCommand.put("serviceId", serviceId);
         paramCommand.put("method", method);
-        paramCommand.put("paras", paras);      
+        paramCommand.put("paras", paras); 
         
         Map<String, Object> paramPostAsynCmd = new HashMap<>();
         paramPostAsynCmd.put("deviceId", deviceId);
         paramPostAsynCmd.put("command", paramCommand);
-        //paramPostAsynCmd.put("callbackUrl", callbackUrl);
+        paramPostAsynCmd.put("callbackUrl", callbackUrl);
         
         String jsonRequest = JsonUtil.jsonObj2Sting(paramPostAsynCmd);
                 

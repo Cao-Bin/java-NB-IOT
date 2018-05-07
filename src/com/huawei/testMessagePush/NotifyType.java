@@ -6,7 +6,7 @@ import java.util.List;
 public class NotifyType {
 
     //please replace the IP and Port to your localhost IP and port, when you use the testMessagePush.
-    public static final String TEST_CALLBACK_BASE_URL = "http://110.84.156.1:8888";
+    public static final String TEST_CALLBACK_BASE_URL = "http://118.126.106.82:8080/ssm-wx-gzh2";
 
     public static List<String> notifyTypes = new ArrayList<>();
     public static List<String> getNotifyTypes () {
