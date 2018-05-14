@@ -18,14 +18,14 @@ public class Constant {
     public static final String BASE_URL = "https://180.101.147.89:8743";
 
     //please replace the appId and secret, when you use the demo.
-    public static final String APPID = "_fc0H1jfZfLRXhYWWl7N2Ezc0Wsa";
-    public static final String SECRET = "b4RG9q2wvKpSluufb5WIrhz10lca";
+    public static final String APPID = "s4UXtvGmDrI5Cc5gFTAKokr3KmUa";
+    public static final String SECRET = "VDv9fpEgljzGJCf6RVQbp7Osuusa";
 
     /*
      *IP and port of callback url.
      *please replace the IP and Port of your Application deployment environment address, when you use the demo.
      */
-    public static final String CALLBACK_BASE_URL = "https://118.126.106.82:443/ssm-wx-gzh2";
+    public static final String CALLBACK_BASE_URL = "https://118.126.106.82:8080/ssm-wx-gzh2";
 
     /*
      * complete callback url：
@@ -38,7 +38,6 @@ public class Constant {
     public static final String DEVICE_DELETED_CALLBACK_URL = CALLBACK_BASE_URL + "/na/iocm/devNotify/v1.1.0/deletedDevice";
     public static final String MESSAGE_CONFIRM_CALLBACK_URL = CALLBACK_BASE_URL + "/na/iocm/devNotify/v1.1.0/commandConfirmData";
     public static final String SERVICE_INFO_CHANGED_CALLBACK_URL = CALLBACK_BASE_URL + "/na/iocm/devNotify/v1.1.0/updateServiceInfo";
-    
     public static final String COMMAND_RSP_CALLBACK_URL = CALLBACK_BASE_URL + "/na/iocm/devNotify/v1.1.0/commandRspData";
     
     public static final String DEVICE_EVENT_CALLBACK_URL = CALLBACK_BASE_URL + "/na/iocm/devNotify/v1.1.0/DeviceEvent";
