@@ -18,14 +18,14 @@ public class Constant {
     public static final String BASE_URL = "https://180.101.147.89:8743";
 
     //please replace the appId and secret, when you use the demo.
-    public static final String APPID = "s4UXtvGmDrI5Cc5gFTAKokr3KmUa";
-    public static final String SECRET = "VDv9fpEgljzGJCf6RVQbp7Osuusa";
+    public static final String APPID = "j_n1fYHo5tuVta4q_ymTnDAv_n8a";
+    public static final String SECRET = "qESwuoaPTfNKhouwl6D0QSFwlHka";
 
     /*
      *IP and port of callback url.
      *please replace the IP and Port of your Application deployment environment address, when you use the demo.
      */
-    public static final String CALLBACK_BASE_URL = "https://118.126.106.82:8080/ssm-wx-gzh2";
+    public static final String CALLBACK_BASE_URL = "https://118.126.106.82:8080/nb-web01";
 
     /*
      * complete callback url：
