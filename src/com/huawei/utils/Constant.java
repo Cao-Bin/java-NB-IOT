@@ -13,37 +13,21 @@
 package com.huawei.utils;
 
 public class Constant {
-
+	public static final String project1="nb-web01";
+	public static final String project2="nb-web02";
+	
     //please replace the IP and Port, when you use the demo.
     public static final String BASE_URL = "https://180.101.147.89:8743";
 
     //please replace the appId and secret, when you use the demo.
-    public static final String APPID = "j_n1fYHo5tuVta4q_ymTnDAv_n8a";
-    public static final String SECRET = "qESwuoaPTfNKhouwl6D0QSFwlHka";
+    public static final String APPID = "Hh8KMwn6C4l52lk6sJXFHwQwN2ga";
+    public static final String SECRET = "yRf59VwiNP8Z7AYlSxW4_VM1Zc0a";
 
     /*
      *IP and port of callback url.
      *please replace the IP and Port of your Application deployment environment address, when you use the demo.
      */
-    public static final String CALLBACK_BASE_URL = "https://118.126.106.82:8080/nb-web01";
-
-    /*
-     * complete callback url：
-     * please replace uri, when you use the demo.
-     */
-    public static final String DEVICE_ADDED_CALLBACK_URL = CALLBACK_BASE_URL + "/na/iocm/devNotify/v1.1.0/addDevice";
-    public static final String DEVICE_INFO_CHANGED_CALLBACK_URL = CALLBACK_BASE_URL + "/na/iocm/devNotify/v1.1.0/updateDeviceInfo";
-    public static final String DEVICE_DATA_CHANGED_CALLBACK_URL = CALLBACK_BASE_URL + "/na/iocm/devNotify/v1.1.0/updateDeviceData";
-    
-    public static final String DEVICE_DELETED_CALLBACK_URL = CALLBACK_BASE_URL + "/na/iocm/devNotify/v1.1.0/deletedDevice";
-    public static final String MESSAGE_CONFIRM_CALLBACK_URL = CALLBACK_BASE_URL + "/na/iocm/devNotify/v1.1.0/commandConfirmData";
-    public static final String SERVICE_INFO_CHANGED_CALLBACK_URL = CALLBACK_BASE_URL + "/na/iocm/devNotify/v1.1.0/updateServiceInfo";
-    public static final String COMMAND_RSP_CALLBACK_URL = CALLBACK_BASE_URL + "/na/iocm/devNotify/v1.1.0/commandRspData";
-    
-    public static final String DEVICE_EVENT_CALLBACK_URL = CALLBACK_BASE_URL + "/na/iocm/devNotify/v1.1.0/DeviceEvent";
-    public static final String RULE_EVENT_CALLBACK_URL = CALLBACK_BASE_URL + "/na/iocm/devNotify/v1.1.0/RulEevent";
-    public static final String DEVICE_DATAS_CHANGED_CALLBACK_URL = CALLBACK_BASE_URL + "/na/iocm/devNotify/v1.1.0/updateDeviceDatas";
-
+    public static final String CALLBACK_BASE_URL = "https://118.126.106.82:8080/"+project1;
 
     /*
      * Specifies the callback URL for the command execution result notification.
@@ -143,10 +127,29 @@ public class Constant {
     public static final String DEVICE_DATA_CHANGED = "deviceDataChanged";
     public static final String DEVICE_DELETED = "deviceDeleted";
     public static final String MESSAGE_CONFIRM = "messageConfirm";
-    public static final String SERVICE_INFO_CHANGED = "serviceInfoChanged";
     public static final String COMMAND_RSP = "commandRsp";
+    
     public static final String DEVICE_EVENT = "deviceEvent";
+    public static final String SERVICE_INFO_CHANGED = "serviceInfoChanged";
     public static final String RULE_EVENT = "ruleEvent";
+    public static final String BIND_DEVICE = "bindDevice";
     public static final String DEVICE_DATAS_CHANGED = "deviceDatasChanged";
-
+    
+    /*
+     * complete callback url：
+     * please replace uri, when you use the demo.
+     */
+    public static final String DEVICE_ADDED_CALLBACK_URL = CALLBACK_BASE_URL + "/na/iocm/devNotify/v1.1.0/addDevice";
+    public static final String DEVICE_INFO_CHANGED_CALLBACK_URL = CALLBACK_BASE_URL + "/na/iocm/devNotify/v1.1.0/updateDeviceInfo";
+    public static final String DEVICE_DATA_CHANGED_CALLBACK_URL = CALLBACK_BASE_URL + "/na/iocm/devNotify/v1.1.0/updateDeviceData";
+    
+    public static final String DEVICE_DELETED_CALLBACK_URL = CALLBACK_BASE_URL + "/na/iocm/devNotify/v1.1.0/deletedDevice";
+    public static final String MESSAGE_CONFIRM_CALLBACK_URL = CALLBACK_BASE_URL + "/na/iocm/devNotify/v1.1.0/commandConfirmData";
+    public static final String COMMAND_RSP_CALLBACK_URL = CALLBACK_BASE_URL + "/na/iocm/devNotify/v1.1.0/commandRspData";
+    
+    public static final String DEVICE_EVENT_CALLBACK_URL = CALLBACK_BASE_URL + "/na/iocm/devNotify/v1.1.0/DeviceEvent";
+    public static final String SERVICE_INFO_CHANGED_CALLBACK_URL = CALLBACK_BASE_URL + "/na/iocm/devNotify/v1.1.0/updateServiceInfo";
+    public static final String RULE_EVENT_CALLBACK_URL = CALLBACK_BASE_URL + "/na/iocm/devNotify/v1.1.0/RulEevent";
+    public static final String BIND_DEVICE_CALLBACK_URL = CALLBACK_BASE_URL + "/na/iocm/devNotify/v1.1.0/BindDevice";
+    public static final String DEVICE_DATAS_CHANGED_CALLBACK_URL = CALLBACK_BASE_URL + "/na/iocm/devNotify/v1.1.0/updateDeviceDatas";
 }
