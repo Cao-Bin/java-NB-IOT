@@ -18,8 +18,8 @@ public class Constant {
     public static final String BASE_URL = "https://180.101.147.89:8743";
 
     //please replace the appId and secret, when you use the demo.
-    public static final String APPID = "j_n1fYHo5tuVta4q_ymTnDAv_n8a";
-    public static final String SECRET = "qESwuoaPTfNKhouwl6D0QSFwlHka";
+    public static final String APPID = "Hh8KMwn6C4l52lk6sJXFHwQwN2ga";
+    public static final String SECRET = "YOF3ngjcmZbwp7XbItRr2KXWORYa";
 
     /*
      *IP and port of callback url.
@@ -33,7 +33,7 @@ public class Constant {
      */
     public static final String DEVICE_ADDED_CALLBACK_URL = CALLBACK_BASE_URL + "/na/iocm/devNotify/v1.1.0/addDevice";
     public static final String DEVICE_INFO_CHANGED_CALLBACK_URL = CALLBACK_BASE_URL + "/na/iocm/devNotify/v1.1.0/updateDeviceInfo";
-    public static final String DEVICE_DATA_CHANGED_CALLBACK_URL = CALLBACK_BASE_URL + "/na/iocm/devNotify/v1.1.0/updateDeviceData";
+    public static final String DEVICE_DATA_CHANGED_CALLBACK_URL = CALLBACK_BASE_URL + "/na/iocm/devNotify/v1.1.1/updateDeviceData";
     
     public static final String DEVICE_DELETED_CALLBACK_URL = CALLBACK_BASE_URL + "/na/iocm/devNotify/v1.1.0/deletedDevice";
     public static final String MESSAGE_CONFIRM_CALLBACK_URL = CALLBACK_BASE_URL + "/na/iocm/devNotify/v1.1.0/commandConfirmData";
