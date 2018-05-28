@@ -20,8 +20,8 @@ public class Constant {
     public static final String BASE_URL = "https://180.101.147.89:8743";
 
     //please replace the appId and secret, when you use the demo.
-    public static final String APPID = "Hh8KMwn6C4l52lk6sJXFHwQwN2ga";
-    public static final String SECRET = "YOF3ngjcmZbwp7XbItRr2KXWORYa";
+    public static final String APPID = "IDHJvfDQen4SfFtyUEM7lEUIYyQa";
+    public static final String SECRET = "2qsxAw6qkYYLwWMFj6vThubTj3Aa";
 
     /*
      *IP and port of callback url.
