@@ -5,6 +5,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 import org.apache.http.HttpResponse;
+import org.apache.http.util.EntityUtils;
 
 import com.huawei.utils.Constant;
 import com.huawei.utils.HttpsUtil;
@@ -85,7 +86,8 @@ public class SubscribeNotification {
 		Map<String, Object> paramSubscribe = new HashMap<>();
         paramSubscribe.put("notifyType", notifyType_deviceAdded);
         paramSubscribe.put("callbackurl", callbackurl_deviceAdded);
-
+        String resultstr="notifyType："+notifyType_deviceAdded+",callbackurl："+callbackurl_deviceAdded;
+        System.out.println("{\"notifyType\":\""+notifyType_deviceAdded+"\",\"callbackurl\":\""+callbackurl_deviceAdded+"\"}");
         String jsonRequest = JsonUtil.jsonObj2Sting(paramSubscribe);
 
         Map<String, String> header = new HashMap<>();
@@ -96,7 +98,7 @@ public class SubscribeNotification {
 
         String bodySubscribe = httpsUtil.getHttpResponseBody(httpResponse);
 
-        System.out.println("SubscribeNotification: " + notifyType_deviceAdded + ", response content:");
+        System.out.println("SubscribeNotification，" + resultstr + ", response content:");
         System.out.print(httpResponse.getStatusLine());
         System.out.println(bodySubscribe);
         System.out.println();
