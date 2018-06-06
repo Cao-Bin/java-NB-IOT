@@ -27,7 +27,7 @@ public class Constant {
      *IP and port of callback url.
      *please replace the IP and Port of your Application deployment environment address, when you use the demo.
      */
-    public static final String CALLBACK_BASE_URL = "https://118.126.106.82:8080/"+project1;
+    public static final String CALLBACK_BASE_URL = "https://119.29.75.100:8080/"+project1;
 
     /*
      * Specifies the callback URL for the command execution result notification.
@@ -98,7 +98,8 @@ public class Constant {
     public static final String QUERY_DEVICE_DATA = BASE_URL + "/iocm/app/dm/v1.3.0/devices";
     public static final String QUERY_DEVICE_HISTORY_DATA = BASE_URL + "/iocm/app/data/v1.1.0/deviceDataHistory";
     public static final String QUERY_DEVICE_CAPABILITIES = BASE_URL + "/iocm/app/data/v1.1.0/deviceCapabilities";
-    public static final String SUBSCRIBE_NOTIFYCATION = BASE_URL + "/iocm/app/sub/v1.1.0/subscribe";
+    public static final String SUBSCRIBE_NOTIFYCATION = BASE_URL + "/iocm/app/sub/v1.2.0/subscribe";
+    public static final String DELETE_SUBSCRIBE_NOTIFYCATION = BASE_URL + "/iocm/app/sub/v1.2.0/subscriptions";
     
     
     /*
