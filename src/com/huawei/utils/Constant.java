@@ -16,14 +16,14 @@ public class Constant {
 	public static final String project1="nb-web01";
 	public static final String project2="nb-web02";
 	
-	/*//please replace the IP and Port, when you use the demo.
+	//please replace the IP and Port, when you use the demo.
     public static final String BASE_URL = "https://device.api.ct10649.com:8743";
 
     //please replace the appId and secret, when you use the demo.
     public static final String APPID = "cJc0uTfS4CBUdRA61Br7_7JmxYwa";
-    public static final String SECRET = "bIefBf8pF4MdZqJYuo7FouoMXxoa";*/
+    public static final String SECRET = "bIefBf8pF4MdZqJYuo7FouoMXxoa";
 	
-	//please replace the IP and Port, when you use the demo.
+	/*//please replace the IP and Port, when you use the demo.
     public static final String BASE_URL = "https://180.101.147.89:8743";
     
     public static final String BASE_IP = "180.101.147.89";
@@ -31,14 +31,14 @@ public class Constant {
 
     //please replace the appId and secret, when you use the demo.
     public static final String APPID = "IDHJvfDQen4SfFtyUEM7lEUIYyQa";
-    public static final String SECRET = "2qsxAw6qkYYLwWMFj6vThubTj3Aa";
+    public static final String SECRET = "2qsxAw6qkYYLwWMFj6vThubTj3Aa";*/
 
 
     /*
      *IP and port of callback url.
      *please replace the IP and Port of your Application deployment environment address, when you use the demo.
      */
-    public static final String CALLBACK_BASE_URL = "https://193.112.123.128:8080/"+project1;
+    public static final String CALLBACK_BASE_URL = "https://193.112.123.128:443/"+project1;
 
     /*
      * Specifies the callback URL for the command execution result notification.
