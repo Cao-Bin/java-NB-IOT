@@ -136,7 +136,12 @@ public class Constant {
      */
     public static final String DEVICE_ADDED = "deviceAdded";
     public static final String DEVICE_INFO_CHANGED = "deviceInfoChanged";
+    public static final String DEVICE_INFO_CHANGED2 = "deviceInfoChanged2";
+    public static final String DEVICE_INFO_CHANGED3 = "deviceInfoChanged3";
+    public static final String DEVICE_INFO_CHANGED4 = "deviceInfoChanged4";
+    
     public static final String DEVICE_DATA_CHANGED = "deviceDataChanged";
+    
     public static final String DEVICE_DELETED = "deviceDeleted";
     public static final String MESSAGE_CONFIRM = "messageConfirm";
     public static final String COMMAND_RSP = "commandRsp";
@@ -153,6 +158,10 @@ public class Constant {
      */
     public static final String DEVICE_ADDED_CALLBACK_URL = CALLBACK_BASE_URL + "/na/iocm/devNotify/v1.1.0/addDevice";
     public static final String DEVICE_INFO_CHANGED_CALLBACK_URL = CALLBACK_BASE_URL + "/na/iocm/devNotify/v1.1.0/updateDeviceInfo";
+    public static final String DEVICE_INFO_CHANGED_CALLBACK_URL2 = CALLBACK_BASE_URL + "/na/iocm/devNotify/v1.1.0/updateDeviceInfo";
+    public static final String DEVICE_INFO_CHANGED_CALLBACK_URL3 = CALLBACK_BASE_URL + "/na/iocm/devNotify/v1.1.0/updateDeviceInfo";
+    public static final String DEVICE_INFO_CHANGED_CALLBACK_URL4 = CALLBACK_BASE_URL + "/na/iocm/devNotify/v1.1.0/updateDeviceInfo";
+    
     public static final String DEVICE_DATA_CHANGED_CALLBACK_URL = CALLBACK_BASE_URL + "/na/iocm/devNotify/v1.1.0/updateDeviceData";
     
     public static final String DEVICE_DELETED_CALLBACK_URL = CALLBACK_BASE_URL + "/na/iocm/devNotify/v1.1.0/deletedDevice";

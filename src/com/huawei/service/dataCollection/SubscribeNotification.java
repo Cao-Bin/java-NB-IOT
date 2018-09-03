@@ -31,53 +31,66 @@ public class SubscribeNotification {
         //Please make sure that the following parameter values have been modified in the Constant file.
         String appId = Constant.APPID;
         String urlSubscribe = Constant.SUBSCRIBE_NOTIFYCATION;
-
+        
         /*
          * subscribe deviceAdded notification
          */
         String callbackurl = Constant.DEVICE_ADDED_CALLBACK_URL;
         String notifyType = Constant.DEVICE_ADDED;
+//        subscribe(httpsUtil, accessToken, appId, urlSubscribe, callbackurl, notifyType);
+//        
+//        callbackurl = Constant.DEVICE_INFO_CHANGED_CALLBACK_URL;
+//        notifyType = Constant.DEVICE_INFO_CHANGED;
+//        subscribe(httpsUtil, accessToken, appId, urlSubscribe, callbackurl, notifyType);
+//        
+//        callbackurl = Constant.DEVICE_DATA_CHANGED_CALLBACK_URL;
+//        notifyType = Constant.DEVICE_DATA_CHANGED;
+//        subscribe(httpsUtil, accessToken, appId, urlSubscribe, callbackurl, notifyType);
+//        
+//        callbackurl = Constant.COMMAND_RSP_CALLBACK_URL;
+//        notifyType = Constant.COMMAND_RSP;
+//        subscribe(httpsUtil, accessToken, appId, urlSubscribe, callbackurl, notifyType);
+//        
+//        callbackurl = Constant.DEVICE_DELETED_CALLBACK_URL;
+//        notifyType = Constant.DEVICE_DELETED;
+//        subscribe(httpsUtil, accessToken, appId, urlSubscribe, callbackurl, notifyType);
+//        
+//        callbackurl = Constant.MESSAGE_CONFIRM_CALLBACK_URL;
+//        notifyType = Constant.MESSAGE_CONFIRM;
+//        subscribe(httpsUtil, accessToken, appId, urlSubscribe, callbackurl, notifyType);
+//        
+//        callbackurl = Constant.DEVICE_EVENT_CALLBACK_URL;
+//        notifyType = Constant.DEVICE_EVENT;
+//        subscribe(httpsUtil, accessToken, appId, urlSubscribe, callbackurl, notifyType);
+//        
+//        callbackurl = Constant.SERVICE_INFO_CHANGED_CALLBACK_URL;
+//        notifyType = Constant.SERVICE_INFO_CHANGED;
+//        subscribe(httpsUtil, accessToken, appId, urlSubscribe, callbackurl, notifyType);
+//        
+//        callbackurl = Constant.RULE_EVENT_CALLBACK_URL;
+//        notifyType = Constant.RULE_EVENT;
+//        subscribe(httpsUtil, accessToken, appId, urlSubscribe, callbackurl, notifyType);
+//        
+//        callbackurl = Constant.BIND_DEVICE_CALLBACK_URL;
+//        notifyType = Constant.BIND_DEVICE;
+//        subscribe(httpsUtil, accessToken, appId, urlSubscribe, callbackurl, notifyType);
+//        
+//        callbackurl = Constant.DEVICE_DATAS_CHANGED_CALLBACK_URL;
+//        notifyType = Constant.DEVICE_DATAS_CHANGED;
+//        subscribe(httpsUtil, accessToken, appId, urlSubscribe, callbackurl, notifyType);
+        
+        callbackurl = Constant.DEVICE_INFO_CHANGED_CALLBACK_URL2;
+        notifyType = Constant.DEVICE_INFO_CHANGED2;
         subscribe(httpsUtil, accessToken, appId, urlSubscribe, callbackurl, notifyType);
         
-        callbackurl = Constant.DEVICE_INFO_CHANGED_CALLBACK_URL;
-        notifyType = Constant.DEVICE_INFO_CHANGED;
+        callbackurl = Constant.DEVICE_INFO_CHANGED_CALLBACK_URL3;
+        notifyType = Constant.DEVICE_INFO_CHANGED3;
         subscribe(httpsUtil, accessToken, appId, urlSubscribe, callbackurl, notifyType);
         
-        callbackurl = Constant.DEVICE_DATA_CHANGED_CALLBACK_URL;
-        notifyType = Constant.DEVICE_DATA_CHANGED;
+        callbackurl = Constant.DEVICE_INFO_CHANGED_CALLBACK_URL4;
+        notifyType = Constant.DEVICE_INFO_CHANGED4;
         subscribe(httpsUtil, accessToken, appId, urlSubscribe, callbackurl, notifyType);
         
-        callbackurl = Constant.COMMAND_RSP_CALLBACK_URL;
-        notifyType = Constant.COMMAND_RSP;
-        subscribe(httpsUtil, accessToken, appId, urlSubscribe, callbackurl, notifyType);
-        
-        callbackurl = Constant.DEVICE_DELETED_CALLBACK_URL;
-        notifyType = Constant.DEVICE_DELETED;
-        subscribe(httpsUtil, accessToken, appId, urlSubscribe, callbackurl, notifyType);
-        
-        callbackurl = Constant.MESSAGE_CONFIRM_CALLBACK_URL;
-        notifyType = Constant.MESSAGE_CONFIRM;
-        subscribe(httpsUtil, accessToken, appId, urlSubscribe, callbackurl, notifyType);
-        
-        callbackurl = Constant.DEVICE_EVENT_CALLBACK_URL;
-        notifyType = Constant.DEVICE_EVENT;
-        subscribe(httpsUtil, accessToken, appId, urlSubscribe, callbackurl, notifyType);
-        
-        callbackurl = Constant.SERVICE_INFO_CHANGED_CALLBACK_URL;
-        notifyType = Constant.SERVICE_INFO_CHANGED;
-        subscribe(httpsUtil, accessToken, appId, urlSubscribe, callbackurl, notifyType);
-        
-        callbackurl = Constant.RULE_EVENT_CALLBACK_URL;
-        notifyType = Constant.RULE_EVENT;
-        subscribe(httpsUtil, accessToken, appId, urlSubscribe, callbackurl, notifyType);
-        
-        callbackurl = Constant.BIND_DEVICE_CALLBACK_URL;
-        notifyType = Constant.BIND_DEVICE;
-        subscribe(httpsUtil, accessToken, appId, urlSubscribe, callbackurl, notifyType);
-        
-        callbackurl = Constant.DEVICE_DATAS_CHANGED_CALLBACK_URL;
-        notifyType = Constant.DEVICE_DATAS_CHANGED;
-        subscribe(httpsUtil, accessToken, appId, urlSubscribe, callbackurl, notifyType);
     }
 
 
